@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>About us Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.3.0/css/all.min.css">
+  
+    <style>
+        * {
+			margin:0;
+			padding:0;
+			overflow-x: hidden;
+		}
+
+		html {
+			scroll-behaviour: smooth;
+		}
+
+		:root {
+			--navbar-height: 59px;
+		}
+		.logo {
+			width: 20%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.logo img {
+			width: 33%;
+			border: 2px solid white;
+			border-radius: 50px;
+		}
+
+		.navbar {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			position: sticky;
+			top: 0;
+			cursor: pointer;
+		}
+
+		.nav-list {
+			width: 70%;
+			display: flex;
+		}
+
+		.nav-list li {
+
+			list-style: none;
+			padding: 2px 6px;
+		}
+
+		.nav-list li a {
+
+			text-decoration: none;
+			color: white;
+		}
+
+		.nav-list li a:hover {
+			color: grey;
+		}
+
+		.rightNav {
+			width: 50;
+			text-align: right;
+		}
+
+		#search {
+			padding: 5px;
+			font-size: 17px;
+			border: 2px solid grey;
+			border-radius: 9px;
+		}
+
+		.background {
+			background: rgb(255, 205, 130);
+			background-blend-mode: darken;
+			background-size: cover;
+		}
+
+		.firstsection {
+			height: 100vh;
+		}
+
+		.box-main {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: white;
+			max-width: 50%;
+			margin: auto;
+			height: 80%;
+		}
+
+		.firstHalf {
+			width: 75%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center
+		}
+
+		.firstHalf img {
+			display: flex;
+			border-radius: 9050px;
+		}
+
+		.text-big {
+			font-family: 'Piazzolla', serif;
+			font-weight: bold;
+			font-size: 41px;
+			text-align: center;
+		}
+
+		.text-small {
+			font-family: 'Sansita Swashed', cursive;
+			font-size: px;
+			text-align: center;
+		}
+
+		#service {
+			margin: 34px;
+			display: flex;
+		}
+
+		#service .box {
+			padding: 100px;
+			margin: 3px 6px;
+			border-radius: 28px;
+		}
+
+		#service .box img {
+			margin-top: 10px;
+			height: 150px;
+			margin: auto;
+			display: block;
+			border-radius: 200px;
+		}
+
+		#service .box p {
+
+			font-family: sans-serif;
+			text-align: center;
+		}
+
+		#services {
+			margin: 34px;
+			display: flex;
+		}
+
+		#services .box {
+
+			padding: 100px;
+			margin: 3px 6px;
+			border-radius: 28px;
+		}
+
+		#services .box img {
+			margin-top: 10px;
+			height: 150px;
+			margin: auto;
+			display: block;
+			border-radius: 100px;
+		}
+
+		#services .box p {
+
+			font-family: sans-serif;
+			text-align: center;
+		}
+
+		.btn {
+			padding: 8px 20px;
+			margin: 7px 0;
+			border: 2px solid white;
+			border-radius: 8px;
+			background: none;
+			color: white;
+			cursor: pointer;
+		}
+
+		.btn-sm {
+			padding: 6px 10px;
+			vertical-align: middle;
+		}
+
+		.center {
+			text-align: center;
+		}
+
+		.text-footer {
+			text-align: center;
+			padding: 10px 0;
+			font-family: 'Ubuntu', sans-serif;
+			display: flex;
+			justify-content: center;
+		}
+		@media screen and (max-width: 650px) {
+.column {
+	width: 100%;
+	display: block;
+}
+}
+
+    </style>
+</head>
+<body>
+    
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"> <img src="logo2.png" alt="logo" style="height: 50px;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contactus.php">Contact Us</a>
+          </li>
+        
+        </ul>
+    
+      </div>
+    </div>
+  </nav>
+	
+	<section class="background firstsection">
+		<div class="box-main">
+			<div class="firstHalf">
+				<p class="text-big">About US</p>
+				
+				<p class="text-small">
+					"Travel with Confidence trust in Our Experience and Knowledge"
+
+				</p>
+				<br>
+				<p class="center"><a href="#Order"
+				style="text-decoration:none;color:white;">
+						Below are the people who
+						works in our company</a>
+				</p>
+			</div>
+		</div>
+	</section>
+	<section class="service">
+		<h1 class="h-primary center" style="margin-top:30px;text-align:center;">
+			Our Team
+		</h1>
+	<div id="services">
+			<div class="box">
+				<img src=
+"prashu.png"
+					alt="picture goes here">
+			
+				<p class="center">
+					<a href="#xyz" style="text-decoration:none;color:black;
+		font-weight:bold;font-family: 'Langar', cursive;">
+						P.PRASHANTH
+					</a>
+				</p>
+				<p style="font-family: sans-serif">CEO and the Founder</p>
+			</div>
+			<div class="box">
+				<img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20201231132740/Capture.PNG"
+					alt="picture goes here">
+				
+				<p class="center">
+					<a href="#abc" style="text-decoration:none;color:black;
+		font-weight:bold;font-family: 'Langar', cursive;">
+						abc
+					</a>
+				</p>
+				
+				<p style="font-family: sans-serif ">co-founder</p>
+				<p style="font-family: sans-serif ">Foodscalablility@gmail.com</p>
+			</div>
+			<div class="box">
+				<img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20201231132740/Capture.PNG"
+					alt="picture goes here">
+				<br>
+				<p class="center">
+					<a href="#xyz" style="text-decoration:none;color:black;
+		font-weight:bold;font-family: 'Langar', cursive;">
+						asw
+					</a>
+				</p>
+				<p style="font-family: sans-serif ">Food Manager of the company </p>
+
+			</div>
+		</div>
+	
+	</section>
+    <footer class="bg-dark text-white pt-5 pb-4">
+        <div class="container text-center text-md-left">
+          <div class="row text-center text-md-left">
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold" style="color: aqua;">ExploreTravelHub</h5>
+              <p>Discover Extraordinary Destinations Beyond Your Imagination</p>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold text-warning">places</h5>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Taj mahal</a>
+              </p>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Varanasi</a>
+              </p>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Ooty</a>
+              </p>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Munnar</a>
+              </p>
+            </div>
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Usefulinks</h5>
+              <p>
+                <a href="https://www.google.co.in/maps" class="text-white" style="text-decoration: none;">Maps</a>
+              </p>
+              <p>
+                <a href="https://www.accuweather.com/en/in/india-weather" class="text-white" style="text-decoration: none;">Weather</a>
+              </p>
+              <p>
+                <a href="https://translate.google.com/" class="text-white" style="text-decoration: none;">Language Translators</a>
+              </p>
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contact</h5>
+              <p>
+                <i class="fas fa-home mr-3"></i>  shamshabad
+              </p>
+              <p>
+                <i class="fas fa-envelope mr-3"></i>  eth@gmail.com
+              </p>
+              <p>
+                <i class="fas fa-phone mr-3"></i>  +7680882258
+              </p>
+            </div>
+    
+          </div>  
+     <hr class="mb-4">
+     <div class="row align-items-center">
+      <div class="col-mb-7 col-lg-8">
+        <p>Copyright @2023 All rights reserved by:
+          <a href="" style="text-decoration: none;"><strong class="text-warning">ExploreTravelHub</strong></a>
+        </p>
+      </div>
+      <div class="col-md-5 col-lg-4">
+        <div class="text-center text-md-right">
+    <ul class="list-unstyled list-inline">
+      <li class="list-inline-item">
+        <a href="" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-facebook"></i></a>
+      </li>
+      <li class="list-inline-item">
+        <a href="" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-instagram"></i></a>
+      </li>
+      <li class="list-inline-item">
+        <a href="" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-linkedin"></i></a>
+      </li>
+      <li class="list-inline-item">
+        <a href="" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-twitter"></i></a>
+      </li>
+    </ul>
+        </div>
+      </div>
+     </div>
+        </div>
+      </footer> 
+    
+
+
+</body>
+
+</html>
