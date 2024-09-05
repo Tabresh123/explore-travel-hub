@@ -1,0 +1,29 @@
+.card {
+    transition: all 0.1s;
+    color: #000000;
+    background-color: #FEA1A1;
+
+}
+body{
+    background-color: #ffffff;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.navbar .navbar-nav .nav-item a{
+padding: 15px;
+
+}
+.navbar .navbar-nav .nav-btn{
+padding: 5px;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 100px; 
+    color: rgb(255, 255, 255);
+    background-image: url("backg1.png");
+    background-repeat: no-repeat;
+    height: 180px;
+}
